@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Email Form</title>
+</head>
+<body>
+
+<h2>Contact Us</h2>
+
+<form id="emailForm" action="/sendEmail" method="post">
+  <label for="number">Your number:</label><br>
+  <input type="number" id="number" name="number"><br><br>
+
+  <label for="subject">Subject:</label><br>
+  <input type="text" id="subject" name="subject"><br><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+  <input type="submit" value="Send">
+</form>
+
+</body>
+</html>
